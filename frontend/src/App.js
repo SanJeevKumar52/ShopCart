@@ -1,13 +1,13 @@
 import { Container } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import HomeScrenn from "./screens/Homescreen";
+import HomeScreen from "./screens/Homescreen";
 
 const App = () => {
   return (
     <>
       <Header />
-      <HomeScrenn/>
+      <HomeScreen/>
       <Footer/>
     </>
   )
