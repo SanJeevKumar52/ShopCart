@@ -4,7 +4,7 @@ import cartSliceReducer from './slices/cartSlice';
 const store = configureStore({
   reducer: {
     [apiSlice.reducerPath]: apiSlice.reducer,
-    cartSliceReducer,
+    cart:cartSliceReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(apiSlice.middleware),
