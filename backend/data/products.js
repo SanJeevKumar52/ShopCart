@@ -77,6 +77,42 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
+  {
+    name: 'Samsung Galaxy S20 Ultra 5G',
+    image: '/images/samsung.jpg',
+    description:
+      'Introducing the Samsung Galaxy S20 Ultra 5G. With revolutionary 8K Video Snap, 5G connectivity, and Space Zoom up to 100x, the way you capture and share your life will never be the same.',
+    brand: 'Samsung',
+    category: 'Electronics',
+    price: 1199.99,
+    countInStock: 3,
+    rating: 4.8,
+    numReviews: 15,
+  },
+  {
+    name: 'Dell XPS 13 9310 Laptop',
+    image: '/images/laptop.jpg',
+    description:
+      'The Dell XPS 13 9310 is a powerful and portable laptop, featuring a stunning 13.4-inch InfinityEdge display, 11th Gen Intel Core processors, and up to 32GB of RAM for seamless multitasking.',
+    brand: 'Dell',
+    category: 'Electronics',
+    price: 1299.99,
+    countInStock: 8,
+    rating: 4.7,
+    numReviews: 20,
+  },
+  {
+    name: 'Bose QuietComfort 35 II Wireless Headphones',
+    image: '/images/headphones.jpg',
+    description:
+      'Escape into your music with the industry-leading noise cancellation of Bose QuietComfort 35 II headphones. They offer Alexa voice control, a noise-rejecting dual-microphone system, and up to 20 hours of battery life.',
+    brand: 'Bose',
+    category: 'Electronics',
+    price: 299.99,
+    countInStock: 6,
+    rating: 4.9,
+    numReviews: 18,
+  },
 ]
 
 export default products
