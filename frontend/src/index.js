@@ -15,8 +15,8 @@ import './assets/styles/index.css'
 import App from './App';
 import PrivateRoute from './components/PrivateRoute';
 import AdminRoute from './components/AdminRoute';
-import ProductScreen from './screens/ProductScreen';
 import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
 import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
