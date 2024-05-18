@@ -41,8 +41,8 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
   );
 } else {
-   /* const __dirname = path.resolve();
-   app.use('/uploads', express.static(path.join(__dirname, '/uploads'))); */
+   const __dirname = path.resolve();
+   app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
 
   app.get('/', (req, res) => {
     res.send('API is running....');
