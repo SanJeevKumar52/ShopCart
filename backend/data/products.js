@@ -115,7 +115,7 @@ const products = [
   },
   {
     name: 'Samsung 49-Inch CRG9 Curved Gaming Monitor',
-    image: '/images/monitor.jpg',
+    image: '/images/monitors.jpg',
     description: 'Get immersed in your favorite games with the Samsung 49-Inch CRG9 Curved Gaming Monitor. With a 120Hz refresh rate, HDR support, and AMD FreeSync 2 technology, you can experience smooth gameplay like never before.',
     brand: 'Samsung',
     category: 'Electronics',
